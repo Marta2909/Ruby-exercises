@@ -9,7 +9,7 @@ test_cases.times do
     triangle << gets.chomp.split.map { |s| s.to_i }
   end
 
-  puts triangle.inspect
+#  puts triangle.inspect
 
   for row in 1..(no_of_rows-1)
     triangle[row][0] += triangle[row-1][0]
