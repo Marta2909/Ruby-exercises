@@ -1,3 +1,4 @@
+#a program counts the smallest number of coins that give a given amount of money. There are available coins of 1,2,5,10,50,100.
 gets.to_i.times do
   amount = gets.chomp.to_i
   sum = 0
